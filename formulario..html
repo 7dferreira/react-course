@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Contactos</h1>
+    <p>Pode contactar-nos utilizando o formulário de contacto abaixo.</p>
+    <form action="#" method="post">
+        <label for="nome">O seu nome* (obrigatório)</label><br />
+        <input type="text" name="nome" id="nome" required><br /><br />
+        <label for="email">O seu email* (obrigatório)</label><br />
+        <input type="email" name="email" id="email" required><br /><br />
+        <label for="telefone">O seu telefone* (obrigatório)</label><br />
+        <input type="tel" name="telefone" id="telefone" required><br /><br />
+        <label for="motivo">Motivo do seu contacto</label><br />
+        <select name="motivo">
+            <option value="1">Apoio Técnico</option>
+            <option value="2">Faturação</option>
+            <option value="3">Apoio Comercial</option>
+            <option value="4">Apoio a Fornecedores</option>
+        </select>
+        <br /><br />
+        <label for="cliente">Já é nosso cliente/fornecedor?</label><br />
+        <input type="radio" value="sim" name="1">
+        <label>Sim</label><br />
+        <input type="radio" value="nao" name="1">
+        <label>Não</label>
+        <br /><br />
+        <label for="contacto">Escolha a(s) forma(s) de contacto que prefere</label><br />
+        <input type="checkbox" name="email">
+        <label for="email">Email</label><br />
+        <input type="checkbox" name="telefone">
+        <label for="telefone">Telefone</label>
+        <br /><br />
+        <label for="mensagem">A sua mensagem</label><br />
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea><br />
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

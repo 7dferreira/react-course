@@ -1,0 +1,16 @@
+* {
+    font-family: verdana;
+    font-weight: 400;
+}
+
+p {
+    font-size: 15px;
+    font-family: verdana;
+}
+
+h1 {
+    border: 1px solid cyan;
+    padding: 10px;
+    text-align: center;
+    color: #FF8C00;
+}

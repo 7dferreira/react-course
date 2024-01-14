@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS em HTML</title>
+        <style>
+
+        /*
+             Aqui vou usar vários seletores para estilizar o tamanho de letra, alinhamento de texto, cor, entre outros.
+        */
+            * {
+                background-color: rgb(192, 191, 191);
+            }
+            
+            .fonte {
+                font-size: 18px;
+            }
+
+            .justificar {
+                text-align: justify;
+            }
+
+            h2, .cor {
+                color: green;
+            }
+
+            h3 {
+                font-family: Arial, sans-serif;
+            }
+
+            li {
+                border: 2px solid black; 
+                background-color: aqua; 
+                padding: 15px; 
+                margin: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <!-- Vamos criar várias classes para os parágrafos, para conseguirmos alterar mais facilmente os seus estilos. Para isso, vamos utilizar internal CSS -->
+
+        <h2>Header h2</h2>
+        <p class="fonte justificar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perspiciatis nulla saepe animi deleniti modi amet inventore labore aperiam at.</p>
+        <p class="justificar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perspiciatis nulla saepe animi deleniti modi amet inventore labore aperiam at.</p>
+        <p class="fonte cor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perspiciatis nulla saepe animi deleniti modi amet inventore labore aperiam at.</p>
+        <h3>Header h3</h3>
+        <p class="justificar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perspiciatis nulla saepe animi deleniti modi amet inventore labore aperiam at.</p>
+        <p class="fonte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perspiciatis nulla saepe animi deleniti modi amet inventore labore aperiam at.</p>
+        <ul>
+            <li><a href="https://www.rtp.pt/" target="_blank">rtp</a></li>
+            <li><a href="https://tvi.iol.pt/" target="_blank">tvi</a></li>
+            <li><a href="https://sic.pt/" target="_blank">sic</a></li>
+        </ul>
+    </body>
+</html>
