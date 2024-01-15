@@ -1,0 +1,100 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+/* Coluna do lado esquerdo */
+
+.col-md-4 {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.verde {
+    color: cadetblue;
+    font-weight: 900;
+}
+
+h5 {
+    font-weight: 900;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    border-radius: 4px;
+}
+
+/*  primeira coluna do lado direito */
+
+.experience {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 12px;
+    border-bottom-width: 1px;
+    margin-bottom: 12px;
+}
+
+span {
+    background-color: rgb(65, 236, 179);
+    border-radius: 4px;
+}
+
+/* Segunda coluna do lado direito */
+
+.education {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+h6 {
+    font-weight: 900;
+}
+
+.education li {
+    list-style-type: none;
+}
+
+.education ul {
+    padding-left: 10px;
+}
+
+/* footer */
+
+.col-md-12 {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    
+}
+
+.lastbox {
+    margin: auto;
+    width: 50%;
+}
+
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+}
