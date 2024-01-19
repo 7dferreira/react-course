@@ -1,0 +1,9 @@
+.container {
+    border: 1px dotted purple;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.items {
+    border: 1px solid blue;
+}
