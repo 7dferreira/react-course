@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'PortuguesaSerif-Medium';
+	font-display: swap;
+	src: url('fonts/PortuguesaSerif-Medium.ttf') format('truetype');
+}
+
+:root {
+	--cor-verde: #046a48;
+	--cor-vermelho: #f00f00;
+	--cor-amarelo: #ffd100;
+}
+
+* {
+	font-family: 'PortuguesaSerif-Medium', Arial, Helvetica, Lucida, sans-serif;
+	font-size: 56px;
+	line-height: 56px;
+	
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: auto;
+}
+
+.container {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	height: 100px;
+	justify-content: center;
+}
+
+.retangulo, .circulo, .quadrado {
+	flex-shrink: 0;
+	height: 100px;
+}
+
+.retangulo {
+	background: var(--cor-verde);
+	width: 60px;
+}
+
+.circulo {
+	background: var(--cor-amarelo);
+	width: 100px;
+	border-radius: 50%;
+}
+
+.quadrado {
+	background: var(--cor-vermelho);
+	width: 100px;
+}
+
+.texto {
+	display: flex;
+	flex-direction: column;
+}
+
+
