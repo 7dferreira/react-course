@@ -3,7 +3,7 @@ import { anedotas } from './anedotas.js';
 const btn = document.querySelector('.joke-button');
 const text = document.querySelector('.texto-anedota');
 
-let currentJokeIndex
+let currentJokeIndex;
 
 function getJoke() {
     let randomIndex;
