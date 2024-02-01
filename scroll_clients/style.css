@@ -1,0 +1,62 @@
+/* 
+alguns estilos já definidos poderão ajudar 
+a ter uma ideia da estrutura necessária
+ */
+
+:root {
+	--accent-color: orangered;
+	--background-color: white;
+	--text-color: black;
+}
+
+
+body {
+	margin: 0;
+	overflow: hidden;
+	font-family: monospace;
+}
+
+.container {
+	--button-text-color: var(--background-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	transition: var(--transition-delay);
+	background-color: var(--background-color);
+	color: var(--text-color);
+	max-width: 400px;
+	margin: auto;
+}
+
+#clienteLista {
+	align-items: center;
+	width: 100%;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#buttonContainer {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+#leftArrow,
+#rightArrow {
+	background-color: var(--accent-color);
+	color: white;
+	border: none;
+	padding: 5px 32px;
+	text-align: center;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#leftArrow:hover,
+#rightArrow:hover {
+	color: rgba(0, 0, 0, 0.515);
+}
