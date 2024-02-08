@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+  }
+  
+  /* solução */
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .title {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  
+  .item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* margin-right: 52px; */
+  }
